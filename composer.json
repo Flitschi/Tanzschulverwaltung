@@ -1,0 +1,15 @@
+{
+    "name": "tanzschule/vertrag-plugin",
+    "description": "Plugin zur Verwaltung von Tanzverträgen inkl. Online-Vertragsabschluss, Mitgliedsnummer, PDF und E-Mail.",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.4",
+        "mpdf/mpdf": "^8.0",
+        "endroid/qr-code": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tanzschule\\VertragPlugin\\": "src/"
+        }
+    }
+}
